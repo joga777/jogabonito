@@ -1,0 +1,10 @@
+'use strict';
+
+const { ClassType } = require('./classType');
+
+function makeChecker(rules, config) {
+    } = ctx;
+
+    const classesByType = {
+      [ClassType.Block]: blocks,
+      [ClassType.Element]: elements,
